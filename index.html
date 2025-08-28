@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CHANGE ME</title>
+    <title>Jasmine's Mediocre Website</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <!-- All content goes here -->
     <div id="all-contents">
-      
+      <nav>
+        <h1>Jasmine's Mediocre Website</h1>
+        <ul id="nav-ul">
+          <li class="nav-li">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-li">
+            <a href="portfolio.html">Portfolio </a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="sidebar">
+          <img class="sidebar-img" src="data:image/jpeg;base64,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">
+        </div>
+        <div class="content">
+          <h2> Jasmine Thompson</h2>
+          <p>Education Reasearch Assistant Intern HNOC</p>
+        </div>
+          <div id="interests">
+           <h3> Interests</h3>
+             <ul>
+              <li>Lanugage Learning</li>
+              <li>History</li>
+              <li>Geography</li>
+            </ul>
+        </div>
     </div>
+      </main>
   </body>
 </html>
